@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Day 3 Form</title>
+    <style>
+        form {
+            border: 2px solid black;
+            height: 450px;
+            width: 650px;
+            padding-left: 2em;
+        }
+    </style>
+
+</head>
+<body>
+<form>
+    <h1>Interest Survey Form</h1>
+    <p>Enter your name: <label>
+        <input type="text">
+    </label></p>
+    <p>Enter your department: <label>
+        <input type="text">
+    </label></p>
+    <p>Tell us a little about yourself: <label>
+        <textarea rows="4" cols="50">Include your favorite meal, hobbies, and a fun fact!</textarea>
+    </label>
+    </p>
+    <p>Do you exercise at home? <label>
+        <input  type="radio" name="button" value="yes">Yes
+    </label>
+        <label>
+        <input  type="radio" name="button" value="no">No
+    </label>
+    </p>
+
+    <p>How do you like to read about your favorite topics?</p>
+    <p><label>
+        <input  type="checkbox">Books
+        <input  type="checkbox">Online recourses
+        <input  type="checkbox">Phone Apps
+        <input  type="checkbox">Magazines
+    </label>
+    </p>
+
+    <p>What genre of movies do you like?
+        <select>
+            <option value="comedy">Comedy</option>
+            <option value="thriller">Thriller</option>
+            <option value="action">Action</option>
+            <option value="horror">Horror</option>
+        </select>
+    </p>
+
+    <button type="submit" name="submit">Submit Form</button>
+</form>
+
+</body>
+</html>
