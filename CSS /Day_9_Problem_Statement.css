@@ -1,0 +1,18 @@
+/*h1 heading*/
+#h1 {
+    text-align: center;
+}
+
+/*text*/
+.col {
+    text-align: center;
+    color: brown;
+}
+
+/*background for title and text*/
+.background {
+    background-color: aqua;
+    padding: 1px;
+    margin-left: 300px;
+    margin-right: 300px;
+}
